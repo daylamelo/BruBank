@@ -8,7 +8,7 @@ while True:
         print(f'Olá {Nome}. Você ainda é menor de idade, infelizmente não poderemos dar continuidade ao seu cadastro.')
         break
     if idade > 120:
-        print('Uma pessoa dessa idade provavelmente estaria falecida. Você está tentando nos enganar, encerramos aqui!!')
+        print('\033[0;31mUma pessoa dessa idade provavelmente estaria falecida. Você está tentando nos enganar, encerramos aqui!!\033[m'')
         break
 
     sexo = '?'
